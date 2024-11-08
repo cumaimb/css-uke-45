@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #d9a6a6;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+header {
+    background-color: #413f3f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4.555em;
+}
+.main_container{
+    background-color: #ffff;
+
+}
+.main_container .sec1{
+    display: flex;
+    justify-content:space-around;
+}
+.main_container .sec2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.product-gallery {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    height: 100px;
+}
+
+
+.product1 {
+    background-color: rgb(246, 204, 204);
+    padding: 10px;
+    text-align: right;
+
+}
+
+.product img {
+    width: 70%;
+    /* height :aut o;     */
+    object-fit :cover ; 
+}
+.product2{
+   align-items: center;
+   background-color:  rgb(246, 204, 204); 
+   padding: 10px;
+   text-align: left;
+}
+.product3{
+    background-color:  rgb(246, 204, 204);
+    padding: 10px;
+    text-align: right;
+}
+.product4{
+    background-color:  rgb(246, 204, 204);
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+
+
+.buy-button {
+    display: inline-block;
+    background-color: #618569;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; 
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.buy-button:hover {
+    background-color: #218838;
+}
+
+
+
+
+
+
+
+
